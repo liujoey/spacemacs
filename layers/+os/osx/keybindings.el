@@ -93,6 +93,16 @@ other than the three sane values listed above."
     (global-set-key (kbd-mac-command "8") 'winum-select-window-8)
     (global-set-key (kbd-mac-command "9") 'winum-select-window-9)
 
+    (global-set-key (kbd-mac-command "C-1") 'eyebrowse-switch-to-window-config-1)
+    (global-set-key (kbd-mac-command "C-2") 'eyebrowse-switch-to-window-config-2)
+    (global-set-key (kbd-mac-command "C-3") 'eyebrowse-switch-to-window-config-3)
+    (global-set-key (kbd-mac-command "C-4") 'eyebrowse-switch-to-window-config-4)
+    (global-set-key (kbd-mac-command "C-5") 'eyebrowse-switch-to-window-config-5)
+    (global-set-key (kbd-mac-command "C-6") 'eyebrowse-switch-to-window-config-6)
+    (global-set-key (kbd-mac-command "C-7") 'eyebrowse-switch-to-window-config-7)
+    (global-set-key (kbd-mac-command "C-8") 'eyebrowse-switch-to-window-config-8)
+    (global-set-key (kbd-mac-command "C-9") 'eyebrowse-switch-to-window-config-9)
+
     (global-set-key (kbd-mac-command "Z") 'undo-tree-redo)
     (global-set-key (kbd-mac-command "C-f") 'spacemacs/toggle-frame-fullscreen)
     (global-set-key (kbd "M-s-h") 'ns-do-hide-others)
